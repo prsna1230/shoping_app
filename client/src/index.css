@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+  box-shadow: none !important;
+  border-radius: 0px;
+}
+
+.navbarText,
+.heading {
+  /* font-family: "Secular One", sans-serif; */
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  color: #252525;
+  font-weight: bold;
+}
+
+.navbarText:hover {
+  color: #ff2812;
+  background-color: #c3d1db;
+  border-radius: 19px;
+  transition: 0.3s;
+}
+.card {
+  box-shadow: black 10px;
+  cursor: pointer;
+}
+.card:hover {
+  box-shadow: lightgray;
+}
